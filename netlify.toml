@@ -8,4 +8,4 @@
 [build]
   base    = "peeksgolden-app/"
   command = "npm run build"
-  publish = "peeksgolden-app/dist/"
+  publish = "peeksgolden-app/public/"
