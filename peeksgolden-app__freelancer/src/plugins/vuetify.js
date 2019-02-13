@@ -4,10 +4,10 @@ import 'vuetify/dist/vuetify.min.css'
 
 Vue.use(Vuetify, {
   theme: {
-    primary: '#D3C3BC',
-    secondary: '#BFADA5',
-    accent: '#D8EBF1',
-    info: '#5B5C79'
+    primary: '#B6B6B6',
+    secondary: '#bdb696',
+    accent: '#787876',
+    info: '#A7A7A7'
   },
   iconfont: 'mdi'
 })

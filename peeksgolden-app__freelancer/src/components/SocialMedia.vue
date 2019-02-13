@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-btn
-      v-for="(item, i) in items.slice(0, large ? items.length : 3)"
+      v-for="(item, i) in items.slice(0, large ? items.length : 5)"
       :key="i"
       fab
       class="ma-2"
@@ -43,10 +43,10 @@ export default {
         name: 'Email',
         icon: 'mdi-email'
       },
-      {
-        name: 'Phone',
-        icon: 'mdi-phone'
-      }
+      //{
+      //  name: 'Phone',
+      //  icon: 'mdi-phone'
+      //}
     ]
   })
 }

@@ -8,20 +8,11 @@
       white--text
     >
       <v-flex
-        hidden-sm-and-down
-        md6
-      >
-        <v-img
-          :src="require('@/assets/contact.png')"
-          height="100%"
-        />
-      </v-flex>
-      <v-flex
         xs12
         md6
         pa-5
       >
-        <base-bubble-1 />
+
         <base-heading class="mb-5">
           Get In Touch
         </base-heading>
@@ -56,6 +47,15 @@
           />
           <base-btn>Send</base-btn>
         </v-sheet>
+      </v-flex>
+      <v-flex
+        hidden-sm-and-down
+        md6
+      >
+        <v-img
+          :src="require('@/assets/IMG_0105.jpg')"
+          height="100%"
+        />
       </v-flex>
     </v-layout>
   </section>

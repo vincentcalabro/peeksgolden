@@ -1,8 +1,7 @@
 <template>
   <div>
     <welcome />
-    <recent-projects />
-    <services />
+    <ingredients />
     <about-me />
     <get-in-touch />
   </div>
@@ -13,8 +12,7 @@ export default {
   components: {
     AboutMe: () => import('@/components/AboutMe'),
     GetInTouch: () => import('@/components/GetInTouch'),
-    RecentProjects: () => import('@/components/RecentProjects'),
-    Services: () => import('@/components/Services'),
+    Ingredients: () => import('@/components/Ingredients'),
     Welcome: () => import('@/components/Welcome')
   }
 }

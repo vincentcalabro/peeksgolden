@@ -1,3 +1,7 @@
+<style lang="scss">
+  @import 'src/assets/css/base.scss';
+</style>
+
 <template>
   <v-app>
     <core-toolbar />

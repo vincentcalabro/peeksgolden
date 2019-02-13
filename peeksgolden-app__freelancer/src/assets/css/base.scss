@@ -1,0 +1,6 @@
+.peeksgolden_logo {
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+}
+.gold-bg {
+  background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #b39b65 62.5%, #ffe29f 100%);
+}

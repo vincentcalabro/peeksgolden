@@ -1,7 +1,7 @@
 <template>
   <component
     :is="tag"
-    class="display-3 v-heading mb-3 font-weight-light"
+    class="headline v-heading mb-2 font-weight-black"
   >
     <slot />
   </component>
@@ -20,5 +20,5 @@ export default {
 
 <style lang="sass">
   .v-heading
-    letter-spacing: 3px !important
+    letter-spacing: 2px !important
 </style>

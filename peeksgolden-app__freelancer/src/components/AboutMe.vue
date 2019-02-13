@@ -3,34 +3,43 @@
     id="about"
     class="hide-overflow"
   >
-    <v-layout white>
+    <v-layout
+      white
+      align-center
+      justify-center
+      fill-height
+    >
+    <v-flex
+      hidden-sm-and-down
+      md6
+    >
+      <v-img
+        :src="require('@/assets/DSC0319.jpg')"
+        height="100%"
+      />
+    </v-flex>
       <v-flex
         xs12
         md6
         pa-5
       >
-        <base-bubble-1
-          style="transform: translate(5%, -5%)"
-        />
+
         <base-heading class="info--text">
-          About Me
+          About Us
         </base-heading>
 
         <base-text class="mb-5">
-          Lorem ipsum dolor sit amet, consectetur adipi<br>
-          scin elit. Etiam vulputate augue vel felis gravida<br>
-          porta. Lorem ipsum dolor sit amet.
+          We are a Mom & Pop owned shop. We developed Peek's Golden Butt to ensure only the best and most natural ingredients made it onto our baby's butt.
         </base-text>
 
         <base-subheading class="info--text">
-          Skills
+          Our Guarantee
         </base-subheading>
         <base-text class="mb-5">
-          Lorem ipsum dolor sit amet, consecte tur adipi scin e<br>
-          lit. Etiam vulputate augu e vel felis gravida porta.
+          If you don't think our butt cream is the best, send it back for a full refund.
         </base-text>
 
-        <v-alert
+        <!--<v-alert
           outlined
           color="info"
         >
@@ -56,16 +65,7 @@
               height="8"
             />
           </v-layout>
-        </v-alert>
-      </v-flex>
-      <v-flex
-        hidden-sm-and-down
-        md6
-      >
-        <v-img
-          :src="require('@/assets/aboutme.png')"
-          height="100%"
-        />
+        </v-alert>-->
       </v-flex>
     </v-layout>
   </section>
